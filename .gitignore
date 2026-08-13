@@ -3,8 +3,15 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# version alembic
+alembic/versions/*.pyc
+alembic/versions/*.py
+
 # C extensions
 *.so
+
+# base de donnnées
+*.db
 
 # Distribution / packaging
 .Python
