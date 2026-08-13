@@ -120,3 +120,23 @@ OAUTH_REDIRECT_URI=http://localhost:8000/oauth/callback
 ```
 
 Les valeurs réelles doivent être adaptées à l'environnement utilisé.
+
+# Lancer l'API
+
+En environnement de développement :
+```bash
+uvicorn app.main:app --reload
+```
+L'API est alors disponible à l'adresse :
+
+http://127.0.0.1:8000
+# Documentation API
+
+La documentation est automatiquement générée par FastAPI.
+
+## Swagger UI
+http://127.0.0.1:8000/docs
+## ReDoc
+http://127.0.0.1:8000/redoc
+
+La documentation Swagger permet de tester directement les endpoints de l'API.
